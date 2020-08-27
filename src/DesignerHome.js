@@ -33,7 +33,7 @@ function Designer(){
 <div className="landing-top-img">
 <div className="landing-top">
 <div className="inner">
-        <h6>MIRROR CUSTOMIZATION WORLD</h6>
+        <h6 style={{fontSize:"18px"}}>MIRROR CUSTOMIZATION WORLD</h6>
 
         <div className="act1"></div>
         <br />

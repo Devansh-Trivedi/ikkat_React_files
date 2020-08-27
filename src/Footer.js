@@ -6,7 +6,7 @@ function Footer(){
     return(
 
 
-<div>
+<div className="about-container">
  <div class="footer">
       <div class="inner-footer">
 

@@ -15,6 +15,7 @@ function Header(){
          <div id="header-2">
         
         <header>
+        <div className="about-container">
         <div class="container">
             <input type="checkbox" name="" id="check" />
             
@@ -56,7 +57,7 @@ function Header(){
                             <a href="#">Customize</a>
                         </li>
                         <li class="nav-link">
-                            <a href="#">Shop</a>
+                            <a href="/">Shop</a>
                         </li>
 
                         <li class="nav-link">
@@ -117,9 +118,9 @@ function Header(){
                 </div>
             </div>
             </div>
-       
+            </div>    
     </header>
-      
+   
      <br />
      </div>
        

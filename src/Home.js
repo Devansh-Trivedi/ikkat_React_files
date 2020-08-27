@@ -25,17 +25,18 @@ function Home(){
     return(
 <div>
 
-
-<div className="row no-gutters">
+<div className="home-header">
+<div className="row no-gutters ">
 
 <div className="col-md-6 no-gutters">
 <div className="left" data-aos="fade-right">
 <div className="landing-top-img">
 <div className="landing-top">
 <div className="inner">
-        <h6>MIRROR CUSTOMIZATION WORLD</h6>
+        <h6 style={{fontSize:"18px"}}>MIRROR CUSTOMIZATION WORLD</h6>
 
         <div className="act1"></div>
+        <br />
         <br />
         <h2>You Order We <br /><strong>Design !!</strong></h2>
         <br />
@@ -43,6 +44,7 @@ function Home(){
         <button className="btn btn-light" >Explore Us</button>
 </div> 
 </div>
+    
         <div className="about-img">
         <img  src="/images/about.jpg" alt="about_img" />
         </div>
@@ -60,10 +62,11 @@ function Home(){
     </div>
 </div>
 </div>
+</div>
 
 
 
-
+<div className="about-container">
 <section id="abt-sec">
     <div className="about">
         <div className="about-title" data-aos="fade-up" >
@@ -89,10 +92,10 @@ function Home(){
 
     </div>
     </section>
+</div>
 
-
-
-    <div className="page-wrappper">
+<div className="about-container ">
+    <div className="page-wrappper ">
             {/* <!-- post slider --> */}
             <div className="post-slider">
                 <p className="slider-title" style={{fontFamily: "sansSerif", fontSize: "35px"}}>Blogs</p>
@@ -141,10 +144,10 @@ function Home(){
                 </div>
             </div>
         </div> 
-           
+    </div>
        
          
-    
+    <div className="about-container">
     
     <section id="services">
     <p style={{textAlign: "center",fontFamily: 'sans-serif',
@@ -189,7 +192,7 @@ function Home(){
         </div>
     </div>
 </section>
-
+</div>
 </div>
  
 );

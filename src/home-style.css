@@ -525,10 +525,11 @@ section{
 .material-icons{
   margin-top: 6px;
 }
-@media (max-width: 920px){
+@media (max-width: 768px){
     .searchBox:hover > .searchInput {
     width: 70px;
     padding: 0 6px;
+    
 }
 #services{
     margin-left: -20px;
@@ -587,8 +588,8 @@ section{
     margin-top: -10px;
 }
 .inner >h6{
-    margin-top: -50px;
-    margin-left: -70px;
+    margin-top: -15px;
+    /* margin-left: -70px; */
     color: white;
 }
 .inner >h2{
@@ -606,14 +607,14 @@ section{
 }
 .inner >button{
     padding-left: 200px;
-    padding: 1.8em 3.5em;
+    padding: 1em 3.5em;
     background-color: #68ebd1
 }
 }
 
 .act1{
   height: 2px;
-  width: 6rem;
+  width: 20rem;
   margin-left: 96px;
   margin-bottom: 365px;
   position: absolute;
@@ -953,10 +954,28 @@ h2{
 .social i:hover{
     color: white;
 }
+
 @media (max-width: 1085px){
     .footer-items{
         width: 50%;
+        
     }
+    .about-img{
+        
+        display:none;
+        background-color: #2f3640;
+    }
+    .home-header{
+        /* background-image:"/images/d2.jpg" ; */
+        background-color: #494948;
+    }
+    
+}
+@media (max-width: 768px){
+    .about-container{
+        width:100%;
+    }
+    
 }
 @media (max-width: 600px){
     .footer-items{
